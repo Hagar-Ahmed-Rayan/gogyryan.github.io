@@ -1,0 +1,187 @@
+ 
+ body{
+    background-image:linear-gradient(45deg,#ff009e,#af00ff);
+    font-family:courier
+ }
+    .header{
+        background :white;
+        -ms-transform:translate(-50%,-50%);
+        transform :translate(-50%,-50%);
+        height: 450px;
+
+        width:310px;
+        top :50%;
+        left :50%;
+        position :absolute;
+        border-radius :25px;
+        box-shadow: 0 0 10px;
+    }
+    
+     #calcInp{
+                font-family :courier;
+                font-weight: bold;
+                position :absolute;
+                background :none;
+                border :none;
+           
+                height: 70px;
+                font-size: 30px;
+                width :292px;
+                bottom: 0%;
+                text-align: right;
+     }
+                #calcInp:focus{
+                    outline :none;
+    
+                }
+    
+    
+    
+    
+    
+        .screen{
+            background:#0000003b;
+            height :100px;
+            width :300px;
+            top :5%;
+            position :absolute;
+            box-shadow :inset 0px  0 1px;
+            font-weight: bold;
+            font-size: 30px;
+            padding-top :10%;
+              padding-left :10px; 
+        }
+        .inputArea{
+            background: white;
+            height: 295px;
+            width: inherit;
+            top :30%;
+            position: absolute;
+            z-index :10;
+        
+   }
+            
+            #oneInput{
+                top: 10%;
+                left :10%;
+            }
+            #twoInput{
+                top :10%;
+                left: 30%;
+            }
+            #threeInput{
+                top: 10%;
+                left: 50%;
+            }
+            #fourInput{
+                top :10%;
+                left: 70%;
+            }
+            #fiveInput{
+                top:10%;
+                left :90%;
+            }
+            #sixInput{
+                top :30%;
+                left: 10%
+                }
+            #sevenInput{
+                top :30%;
+                left: 30%;
+                }
+            #eightInput{
+                top :30%;
+                left :50%;
+                }
+            #nineInput{
+                top:30%;
+                left :70%;
+            }
+            #zeroInput{
+                top :30%;
+                left :90% ;
+                }
+            #plusInput{
+                top :50%;
+                left :10%;
+                background :#358aff;
+            }
+            #minusInput{
+                top :50%;
+                left: 30%;
+                background: #ff2b2b;
+                
+            }
+            #multiInput{
+                top :50%;
+                left :50%;
+                background :#6e2bff;
+            }
+            #divideInput{
+                top: 50%;
+                left :70%;
+                background: #ff5e07;
+                }
+           
+            #substrInput{
+                top :-10%;
+                left :100%;
+                font-size :23px;
+                width :25px;
+                height :25px;
+            }
+            #clearInput{
+             
+              top :50%;
+                left :90% ;
+                
+         
+                 background :#358aff;
+               
+                }
+            #calcInput{
+                text-align: center;
+                top: 85%;
+                left :50%;
+                width :240px;
+                background :black;
+                border-radius: 25px;
+            }
+                .calcInput :hover{
+                    border-radius :12.5px;
+                   
+                }
+            
+#calcInput:active{
+                   background-color :red;
+                 
+
+                }
+            
+                    
+.c{
+    position :absolute;
+    font-weight: bold;
+    background: black;
+    color: white;
+    height: 50px;
+    width :50px;
+    font-size :47.5px;
+    text-align :center;
+  
+    vertical-align: middle;
+    cursor :pointer;
+    box-shadow :0 0 4px black;
+   
+    transition :box-shadow  0.5s;
+    border-radius :50%;
+   
+    -ms-transform: translate(-50%,-50%);
+    transform :translate(-50%,-50%);
+}
+    span:hover{
+    
+        box-shadow: 0 0 16px black;
+        border-radius :25%;
+        text-shadow :0 0 4px;
+    }

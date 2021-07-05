@@ -1,0 +1,85 @@
+  <!DOCTYPE html>
+        <html lang="en">
+            
+                
+            <head>
+               <meta charset"UTF-8"> 
+                
+                <title>WEBSITE</title>
+              <link rel="stylesheet" href="calc.css" >  
+           
+                
+            </head>
+            
+            
+            
+                
+                <body>
+              
+  
+  
+  
+  
+  
+  
+  
+  
+  <div class="header"  id="app"   :style="[forStyle()]">
+ 
+   
+    
+ <!--   <p>color</p>   <input type="text" v-model="color"> <hr>  -->
+    
+     
+        
+      
+          <div  class="screen"   > {{     display }}    </div>
+       
+        
+      <div class= "inputArea" >
+      
+       
+       
+        
+        
+          <span class="c" id="oneInput"  @click="enterNum(1)">1</span>
+          <span class="c" id="twoInput"  @click="enterNum(2)">2</span>
+          <span  class="c"    id="threeInput"   @click="enterNum(3)">3</span>
+           <span class="c" id="fourInput" @click="enterNum(4)">4</span>
+          <span class="c" id="fiveInput" @click="enterNum(5)">5</span>
+          <span class="c"  @click="enterNum(6)"    id="sixInput"   >6</span>
+         <span  class="c"  id="sevenInput"   @click="enterNum(7)">7</span>
+          <span  class="c" id="eightInput"  @click="enterNum(8)">8</span>
+          <span class="c" id="nineInput" @click="enterNum(9)">9</span>
+                    <span class="c"  id="zeroInput" @click="enterNum(0)" >0</span>   <!-- @click="enterNum(0)"  -->
+              <span   id="clearInput" class="c" @click="clear()">C</span>     <!-- @click="clear" --->
+          <span  class="c" id="divideInput" @click="enterOps(4,'/')">÷</span>
+          <span class="c"    id="multiInput"  @click="enterOps(3,'*')">X</span>
+             <span class="c"  id="minusInput" @click="enterOps(2,'-')">-</span>
+              <span class="c" id="plusInput" @click="enterOps(1,'+')">+</span>
+              <span class="c"  id="calcInput" @click=calc()   @mouseover='tick.play()' >=</span>
+     
+          
+          
+          
+          
+          
+          
+          
+      
+      
+
+        
+        
+    </div>
+  </div>
+
+  
+                  <script src="vue.js"></script>
+                         <script src="maincalc.js"></script>
+                       <script  type="text/javascript" src="vue.js"></script>
+      
+                    </body>
+                </html>
+  
+  
